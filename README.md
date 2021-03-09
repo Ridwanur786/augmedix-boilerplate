@@ -21,9 +21,9 @@
        <h4>Steps:</h4>
 
  <ul>
- <li>crete a folder <code class="background">/dist/src/whatever you can name it.</code></li>
+ <li>create a folder <code class="background">/dist/src/whatever you can name it.</code></li>
 <li>create another sub folder name as sass/scss, carefull with the spelling :)</li>
-<li>crete a file name <code class="background">style.scss</code></li>
+<li>create a file name <code class="background">style.scss</code></li>
 <li>This structure follows the sass 7-1 architacture</li>
 <li>open your project with VS code editor</li>
 <li>You have to install node for your windows/linux/macOS to install sass </li>
