@@ -1,72 +1,21 @@
-//Global stylesheet where we have to import all our scss files
-
-//Variables
-@import './variables/variables';
-
-//mixins & functions
-
-@import './abstracts/mixins',
-        './abstracts/functions';
-//fonts
-@import './fonts/fonts';
-//icon-fonts
-@import './icon-fonts/icons';
-//base
-@import './base/base';
-//themes
-@import './themes/themes';
-//pages
-@import './pages/pages';
-//Components
-@import './components/components';
-//Utilities
-@import './utilities/utilities';
-
-
-h1{
-  display: block;
-  margin:0 auto;
-  text-align: center;
-  border-bottom: 0.2rem solid #676767;
-  padding: 1rem;
+$primary-color: #dfd7d7ea;
+$secondary-color:#02331ba1;
+body{
+  background-color:$primary-color;
 }
-p{
-    font-size: $small-heading;
-    font-weight: normal;
-    font-family: $slab;
-    width: 968px;
-    text-align: center;
-    margin:0 auto;
+ul  li{
 
+  margin: 15px;
 }
-h4{
+
+.code{
+  width:50%;
   display: flex;
-  margin:0 auto;
-  text-align: center;
-  border-bottom: 0.2rem solid #676767;
-  padding: 1rem;
+  color: $secondary-color;
 }
-ul > li{
-    margin: 30px;
-    display: block;
-    font-size: $small-heading;
-}
-.background{
-    display: flex;
-    background-color: rgb(202, 196, 196);
-    color: $heading-tag;
-    padding: 1rem;
-    border-radius: 0.2rem;
-    margin: 1rem;
-}
-
 .copyright{
-    padding: 20px;
-    text-align: center;
-    display: fblock;
-    background-color: $title-color;
-    color:$heading-tag;
-    margin-top: 20px;
+  text-align: center;
+  background-color: $secondary-color;
+  padding:2rem;
 
 }
-        

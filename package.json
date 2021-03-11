@@ -1,11 +1,24 @@
 {
-  "name": "-y",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "augmedix boilerplate ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ridwanur Khan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ridwanur786/augmedix-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ridwanur786/augmedix-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Ridwanur786/augmedix-boilerplate#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
 }
