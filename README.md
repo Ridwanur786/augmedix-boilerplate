@@ -1,18 +1,26 @@
 # augmedix-boilerplate
 <!DOCTYPE html>
+
 <html lang="en">
+  
 <head>
+  
 <meta charset="UTF-8">
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Augmedix sass boilerplate</title>
+
 <link rel="stylesheet" type="text/css" href="../src/css/style.css">
+
 </head>
+
 <body class="home-page">
   
 <div class="container">
   
 <header>
+  
 <h1 class="primary-header">
   
 This is an Augmedix boilerplate Template
@@ -98,8 +106,8 @@ Initialize the browserSync for letting gulp automate the refresh or update of th
                  }
                      });
                      }
-      </code>
-    </pre>
+</code>
+</pre>
 
 </li>
 
