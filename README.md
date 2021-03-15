@@ -200,8 +200,6 @@ lastly run <code>gulp watch</code> command  to watch and sync your changes/updat
 </li>
 </ul>
 </main>
-
-<footer class="copyright">&copy;copyright</footer>
 </div>
 </body>
 </html>
